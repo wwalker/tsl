@@ -1,0 +1,17 @@
+name: tsl
+version: 0.1.0
+
+authors:
+  - Wayne Walker <wwalker@solid-constructs.com>
+
+    # dependencies:
+    #   prometheus-exporter:
+    #     github: marmaxev/prometheus-exporter
+
+targets:
+  tsl:
+    main: src/tsl.cr
+
+crystal: 1.6.0
+
+license: MIT
